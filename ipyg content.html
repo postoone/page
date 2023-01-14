@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Join with IPYG</title>
+        <style>
+            *{ 
+                font-size: 13px; 
+                font-family: sans-serif;
+            }
+        </style>
+    </head>
+
+    <body>
+       <h2>IPYG와 함께하는 프로젝트</h2>
+       <style>
+        
+       </style>
+       <p>1. 아래 항목을 입력하여 주세요.</p>
+       <form method="post" action="form-action.php">
+        <p>이름 : <input type="text" name="name" required></p>
+        <p>단체 : <input type="text" name="organization" required></p>
+       </form> 
+<br>
+        <form>2. 참여하고 싶은 항목을 체크하여 주세요(중복 선택 가능).<br>
+        <input type="checkbox" name="subject" value="I">I 활동<br>
+        <input type="checkbox" name="subject" value="P">P 활동<br>
+        <input type="checkbox" name="subject" value="Y">Y 활동<br>
+        <input type="checkbox" name="subject" value="G">G 활동<br>
+       </form>
+
+       <br>
+       <p>3. IPYG에게 바라는 점이나 향후 함께 진행하고 싶은 프로젝트가 있다면 알려주세요.</p>
+       <form>
+        <textarea name="memo" rows="6" cols="80"></textarea>
+       </form>
+
+       <br>
+      
+       <form>
+        <input type="submit" value="전송">
+        <input type="reset" value="다시작성">
+       </form>
+        
+
+    </body>
+</html>
